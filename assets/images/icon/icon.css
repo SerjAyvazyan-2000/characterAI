@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.icon {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+}
+.icon-stash_arrow-up {
+  mask-image: url(stash_arrow-up.svg);
+  -webkit-mask-image: url(stash_arrow-up.svg);
+}
+
+.icon-arrowUpLine{
+        mask-image: url(arrowUpLine.svg);
+  -webkit-mask-image: url(arrowUpLine.svg);
+}
+.icon-plus{
+      mask-image: url(plus.svg);
+  -webkit-mask-image: url(plus.svg);
+}
+.icon-material-symbols{
+       mask-image: url(material-symbols.svg);
+  -webkit-mask-image: url(material-symbols.svg);
+}
+.icon-video-file{
+    mask-image: url(video-file.svg);
+  -webkit-mask-image: url(video-file.svg);
+}
+.icon-search{
+     mask-image: url(icon-search.svg);
+  -webkit-mask-image: url(icon-search.svg);
+}
+.icon-messages{
+     mask-image: url(messages.svg);
+  -webkit-mask-image: url(messages.svg);
+}
+.icon-plus2{
+       mask-image: url(plus2.svg);
+  -webkit-mask-image: url(plus2.svg);
+}
+.icon-fStars{
+       mask-image: url(fStars.svg);
+  -webkit-mask-image: url(fStars.svg);
+}
+.icon-fStars2{
+       mask-image: url(fStars2.svg);
+  -webkit-mask-image: url(fStars2.svg);
+}
