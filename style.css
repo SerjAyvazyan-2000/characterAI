@@ -312,6 +312,7 @@ body {
   gap: 10px;
 }
 
+
 .d-btn-register {
   padding: 14px 20px 14px 21px;
   display: flex;
@@ -333,6 +334,7 @@ body {
 .d-btn-register:hover {
   background: #386fde;
 }
+
 
 .f-section {
   margin-top: 34px;
@@ -424,7 +426,7 @@ body {
   color: #76767c;
 }
 .f-wrapper {
-  max-width: 1445px;
+  max-width: 1920px;
   width: 100%;
   padding: 0 0 0 5px;
   margin: 0 auto;
@@ -434,21 +436,110 @@ body {
   min-width: 295px;
   width: 100%;
   position: relative;
+  transition: 0.3s;
 }
-.f-sidebar-cnt {
+.f-wrapper.active .f-sidebar-wrapper {
   max-width: 295px;
+  min-width: 295px;
+  width: 100%;
+}
+.f-wrapper.inActive .f-sidebar-wrapper {
+  max-width: 64px;
+  min-width: 64px;
+  width: 100%;
+}
+
+
+
+.f-wrapper.inActive .f-sidebar-cnt {
+  background: unset;
+  border: unset;
+}
+
+.f-wrapper.active .f-sidebar-main {
+  opacity: 1;
+  visibility: visible;
+}
+
+.f-wrapper.inActive .f-sidebar-main {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.f-sidebar-cnt {
+  
   position: sticky;
   top: 0;
   width: 100%;
   background: #ffffff;
-  height: max-content;
   border: 1px solid #e8e8e8;
+  height: max-content;
   padding: 30px 20px;
+
   border-radius: 0 20px 20px 0;
-  max-height: 100vh;
-  overflow: auto;
+  transition: 0.3s;
 }
-.f-sidebar-cnt::-webkit-scrollbar {
+.f-wrapper.active .f-burger {
+  width: 0;
+  height: 0;
+}
+.f-wrapper.inActive .f-burger {
+  width: 23px;
+  height: 15px;
+}
+.f-burger {
+  top: 40px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 4;
+}
+.f-burger span {
+  width: 100%;
+  background: #000000;
+  display: block;
+  height: 2px;
+  transition: 0.3s;
+  border-radius: 5px;
+  position: relative;
+}
+
+.f-burger::after {
+  width: 100%;
+  content: "";
+  display: block;
+  height: 2px;
+  background: #000000;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.f-burger::before {
+  width: 100%;
+  content: "";
+  display: block;
+  height: 2px;
+  background: #000000;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.f-burger:hover::after{
+background: #386FDE;
+
+}
+.f-burger:hover::before{
+background: #386FDE;
+
+}
+
+.f-burger:hover span{
+background: #386FDE;
+
+}
+/* .f-sidebar-cnt::-webkit-scrollbar {
   width: 4px;
 }
 
@@ -463,7 +554,7 @@ body {
 
 .f-sidebar-cnt::-webkit-scrollbar-thumb:hover {
   background: #28282b;
-}
+} */
 
 .f-sidebar-header {
   justify-content: space-between;
@@ -473,6 +564,12 @@ body {
 .f-sidebar-header i {
   font-size: 15px;
   background: #e8e8e8;
+  transition: .3s;
+  cursor: pointer;
+}
+.f-sidebar-header i:hover{
+  background: #386FDE;
+
 }
 
 .f-sidebar-nav {
@@ -589,10 +686,11 @@ body {
 }
 
 .f-main-cnt {
-  max-width: 1141px;
+  max-width: 100%;
   width: 100%;
   padding: 30px 0 0 40px;
   overflow: hidden;
+  transition: 0.3s;
 }
 .f-main-search {
   padding: 0 48px 0 0;
@@ -640,7 +738,7 @@ body {
   z-index: 1;
   gap: 10px;
 }
-.f-scenarios-cart-titles a {
+.f-scenarios-cart-titles h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -786,20 +884,8 @@ body {
   }
   .f-black-link {
     margin: 26px auto 0;
-}
+  }
 }
 @media (max-width: 450px) {
-  .f-for-you-swiper {
-    padding: 0 13px 0 0;
-  }
-  .f-recommended-section {
-    padding: 0 13px 0 0;
-  }
-  .f-popular-section {
-    padding: 0 13px 0 0;
-  }
-  .f-trends-section {
-    padding: 0 13px 0 0;
-  }
-
+ 
 }

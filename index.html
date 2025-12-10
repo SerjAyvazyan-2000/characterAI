@@ -3,10 +3,10 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
-   <meta
-  name="description"
-  content="Character AI — умный ассистент на базе нейросети. Помогает создавать изображения, анализировать информацию, находить ответы, программировать и решать сложные задачи. Быстро. Точно. В один клик."
-/>
+    <meta
+      name="description"
+      content="Character AI — умный ассистент на базе нейросети. Помогает создавать изображения, анализировать информацию, находить ответы, программировать и решать сложные задачи. Быстро. Точно. В один клик."
+    />
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>CHARACTER AI</title>
@@ -48,87 +48,93 @@
       </div>
     </header>
     <div class="f-wrapper G-flex">
-      <div class="f-sidebar-wrapper fade-left">
-        <div class="f-sidebar-cnt">
-          <div class="f-sidebar-header G-align-center">
-            <a href="index.html" class="f-sidebar-logo G-flex">
-              <img
-                src="assets/images/Flogo.svg"
-                decoding="async"
-                loading="eager"
-                fetchpriority="high"
-                alt="logo"
-                width="159"
-                height="20"
-                style="width: 100%; height: auto"
-              />
-            </a>
-            <i class="icon icon-arrowUpLine"></i>
-          </div>
-          <nav class="f-sidebar-nav G-flex-column">
-            <a
-              class="f-create-link G-align-center"
-              href="#"
-              aria-label="create"
-            >
-              <i class="icon icon-plus"></i>
-              <span>Создать</span>
-            </a>
-
-            <ul>
-              <li>
-                <a href="#" aria-label="link">
-                  <i class="icon icon-material-symbols"></i>
-                  <span>Исследовать</span>
-                </a>
-              </li>
-
-              <li>
-                <a class="active" href="#" aria-label="link">
-                  <i class="icon icon-video-file"></i>
-                  <span>Avatar FX</span>
-                </a>
-              </li>
-            </ul>
-
-            <div class="f-search-box">
-              <label>
-                <i class="icon icon-search"></i>
-                <input
-                  type="text"
-                  placeholder="Поиск"
-                  autocomplete="off"
-                  name="search"
+      <div class="f-sidebar-wrapper active">
+        <div class="f-sidebar-cnt ">
+          <div class="f-sidebar-main ">
+            <div class="f-sidebar-header fade-bottom G-align-center">
+              <a href="index.html" class="f-sidebar-logo G-flex">
+                <img
+                  src="assets/images/Flogo.svg"
+                  decoding="async"
+                  loading="eager"
+                  fetchpriority="high"
+                  alt="logo"
+                  width="159"
+                  height="20"
+                  style="width: 100%; height: auto"
                 />
-              </label>
+              </a>
+              <i class="icon icon-arrowUpLine"></i>
             </div>
-          </nav>
+            <nav class="f-sidebar-nav fade-bottom G-flex-column">
+              <a
+                class="f-create-link G-align-center"
+                href="#"
+                aria-label="create"
+              >
+                <i class="icon icon-plus"></i>
+                <span>Создать</span>
+              </a>
 
-          <div class="f-sidebar-actions G-flex-column">
-            <a
-              class="f-sidebar-border-link G-align-center"
-              href="#"
-              aria-label="link"
-            >
-              <i class="icon icon-stash_arrow-up"></i>
-              <span>Обновить до <strong>(с.ai+)</strong></span>
-            </a>
-            <a class="f-sidebar-avatar G-flex" href="#" aria-label="profile">
-              <img
-                src="assets/images/FAvatar.webp"
-                decoding="async"
-                loading="eager"
-                fetchpriority="high"
-                alt="avatar"
-                width="41"
-                height="41"
-              />
-              <span>Гость</span>
-            </a>
+              <ul>
+                <li>
+                  <a href="#" aria-label="link">
+                    <i class="icon icon-material-symbols"></i>
+                    <span>Исследовать</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a class="active" href="#" aria-label="link">
+                    <i class="icon icon-video-file"></i>
+                    <span>Avatar FX</span>
+                  </a>
+                </li>
+              </ul>
+
+              <div class="f-search-box">
+                <label>
+                  <i class="icon icon-search"></i>
+                  <input
+                    type="text"
+                    placeholder="Поиск"
+                    autocomplete="off"
+                    name="search"
+                  />
+                </label>
+              </div>
+            </nav>
+
+            <div class="f-sidebar-actions fade-bottom G-flex-column">
+              <a
+                class="f-sidebar-border-link G-align-center"
+                href="#"
+                aria-label="link"
+              >
+                <i class="icon icon-stash_arrow-up"></i>
+                <span>Обновить до <strong>(с.ai+)</strong></span>
+              </a>
+              <a class="f-sidebar-avatar G-flex" href="#" aria-label="profile">
+                <img
+                  src="assets/images/FAvatar.webp"
+                  decoding="async"
+                  loading="eager"
+                  fetchpriority="high"
+                  alt="avatar"
+                  width="41"
+                  height="41"
+                />
+                <span>Гость</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="f-burger">
+            <span></span>
           </div>
         </div>
       </div>
-      <div class="f-main-cnt fade-right">
+      <div class="f-main-cnt ">
         <div class="f-search-box fade-top f-main-search">
           <label>
             <i class="icon icon-search"></i>
@@ -141,13 +147,13 @@
           </label>
         </div>
 
-        <section class="f-for-you-section ">
+        <section class="f-for-you-section">
           <h2 class="f-section-title fade-top">Для вас</h2>
           <div class="f-for-you-swiper fade-bottom swiper f-block-cnt">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div  class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage.webp"
                       decoding="async"
@@ -156,7 +162,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h2 class="f-slide-cart-title">Зомби апокалипсис</h2>
@@ -172,7 +178,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage2.webp"
                       decoding="async"
@@ -181,7 +187,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h2 class="f-slide-cart-title">Dark Romance</h2>
@@ -197,7 +203,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage3.webp"
                       decoding="async"
@@ -206,7 +212,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h2 class="f-slide-cart-title">РПГ Хогвартс</h2>
@@ -223,7 +229,7 @@
 
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage4.webp"
                       decoding="async"
@@ -232,7 +238,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h2 class="f-slide-cart-title">Дарк-фентези</h2>
@@ -248,7 +254,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage5.webp"
                       decoding="async"
@@ -257,7 +263,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h2 class="f-slide-cart-title">Dark Romance</h2>
@@ -277,7 +283,7 @@
 
         <section class="f-scenarios-section f-section">
           <h3 class="f-section-title fade-top">Сценарии</h3>
-          <div class="f-scenarios-swiper fade-bottom  swiper f-block-cnt">
+          <div class="f-scenarios-swiper fade-bottom swiper f-block-cnt">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="f-scenarios-cart G-flex">
@@ -292,7 +298,7 @@
                     />
                   </div>
                   <div class="f-scenarios-cart-titles G-flex-column">
-                    <a href="#">Мафия AU</a>
+                    <h3>Мафия AU</h3>
                     <p>
                       <i class="icon icon-plus2"></i>
                       <span>Выбрать персонажа</span>
@@ -315,7 +321,7 @@
                     />
                   </div>
                   <div class="f-scenarios-cart-titles G-flex-column">
-                    <a href="#">Наруто</a>
+                    <h3>Наруто</h3>
                     <p>
                       <i class="icon icon-plus2"></i>
                       <span>Выбрать персонажа</span>
@@ -338,7 +344,7 @@
                     />
                   </div>
                   <div class="f-scenarios-cart-titles G-flex-column">
-                    <a href="#">Хакеры AU</a>
+                    <h3>Хакеры AU</h3>
                     <p>
                       <i class="icon icon-plus2"></i>
                       <span>Выбрать персонажа</span>
@@ -361,7 +367,7 @@
                     />
                   </div>
                   <div class="f-scenarios-cart-titles G-flex-column">
-                    <a href="#">Ведьмак</a>
+                    <h3>Ведьмак</h3>
                     <p>
                       <i class="icon icon-plus2"></i>
                       <span>Выбрать персонажа</span>
@@ -384,7 +390,7 @@
                     />
                   </div>
                   <div class="f-scenarios-cart-titles G-flex-column">
-                    <a href="#">Игра престолов</a>
+                    <h3>Игра престолов</h3>
                     <p>
                       <i class="icon icon-plus2"></i>
                       <span>Выбрать персонажа</span>
@@ -407,7 +413,7 @@
                     />
                   </div>
                   <div class="f-scenarios-cart-titles G-flex-column">
-                    <a href="#">Cyberpunk 2077</a>
+                    <h3>Cyberpunk 2077</h3>
                     <p>
                       <i class="icon icon-plus2"></i>
                       <span>Выбрать персонажа</span>
@@ -423,11 +429,11 @@
         <section class="f-recommended-section f-section">
           <h4 class="f-section-title fade-top">Рекомендуемое</h4>
 
-          <div class="f-recommended-swiper fade-bottom  swiper f-block-cnt">
+          <div class="f-recommended-swiper fade-bottom swiper f-block-cnt">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage12.webp"
                       decoding="async"
@@ -436,7 +442,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h4 class="f-slide-cart-title">Друг-чтец</h4>
@@ -452,7 +458,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage13.webp"
                       decoding="async"
@@ -461,7 +467,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h4 class="f-slide-cart-title">Сократ</h4>
@@ -477,7 +483,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage14.webp"
                       decoding="async"
@@ -486,7 +492,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h4 class="f-slide-cart-title">Священник</h4>
@@ -503,7 +509,7 @@
 
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage15.webp"
                       decoding="async"
@@ -512,7 +518,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h4 class="f-slide-cart-title">Мальбонте</h4>
@@ -528,7 +534,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage16.webp"
                       decoding="async"
@@ -537,7 +543,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h4 class="f-slide-cart-title">Первородный вампир</h4>
@@ -562,7 +568,7 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage17.webp"
                       decoding="async"
@@ -571,7 +577,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h5 class="f-slide-cart-title">Учёный</h5>
@@ -587,7 +593,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage18.webp"
                       decoding="async"
@@ -596,7 +602,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h5 class="f-slide-cart-title">Лагерь Юность</h5>
@@ -612,7 +618,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage19.webp"
                       decoding="async"
@@ -621,7 +627,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h5 class="f-slide-cart-title">Драко Малфой</h5>
@@ -638,7 +644,7 @@
 
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage20.webp"
                       decoding="async"
@@ -647,7 +653,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h5 class="f-slide-cart-title">Венецианский бал</h5>
@@ -663,7 +669,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage21.webp"
                       decoding="async"
@@ -672,7 +678,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h5 class="f-slide-cart-title">Мрачный отель</h5>
@@ -697,7 +703,7 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage22.webp"
                       decoding="async"
@@ -706,7 +712,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h6 class="f-slide-cart-title">deepins</h6>
@@ -722,7 +728,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage23.webp"
                       decoding="async"
@@ -731,7 +737,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h6 class="f-slide-cart-title">Stray Kids</h6>
@@ -747,7 +753,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage24.webp"
                       decoding="async"
@@ -756,7 +762,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h6 class="f-slide-cart-title">Ghost</h6>
@@ -773,7 +779,7 @@
 
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage25.webp"
                       decoding="async"
@@ -782,7 +788,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h6 class="f-slide-cart-title">Боги Иллады</h6>
@@ -798,7 +804,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="f-slide-cart G-flex">
-                  <a href="#" class="f-slide-cart-image G-flex">
+                  <div class="f-slide-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage26.webp"
                       decoding="async"
@@ -807,7 +813,7 @@
                       width="112"
                       height="144"
                     />
-                  </a>
+                  </div>
                   <div class="f-slide-cart-descr">
                     <div class="f-slide-cart-titles G-flex-column">
                       <h6 class="f-slide-cart-title">Русский фольклор</h6>
@@ -832,7 +838,7 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="f-vote-cart G-align-center">
-                  <a href="#" class="f-vote-cart-image G-flex">
+                  <div class="f-vote-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage27.webp"
                       decoding="async"
@@ -841,7 +847,7 @@
                       width="100"
                       height="100"
                     />
-                  </a>
+                  </div>
 
                   <div class="f-slide-cart-titles G-flex-column">
                     <h6 class="f-slide-cart-title">Властный</h6>
@@ -852,7 +858,7 @@
 
               <div class="swiper-slide">
                 <div class="f-vote-cart G-align-center">
-                  <a href="#" class="f-vote-cart-image G-flex">
+                  <div class="f-vote-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage28.webp"
                       decoding="async"
@@ -861,7 +867,7 @@
                       width="100"
                       height="100"
                     />
-                  </a>
+                  </div>
 
                   <div class="f-slide-cart-titles G-flex-column">
                     <h6 class="f-slide-cart-title">Нежный</h6>
@@ -872,7 +878,7 @@
 
               <div class="swiper-slide">
                 <div class="f-vote-cart G-align-center">
-                  <a href="#" class="f-vote-cart-image G-flex">
+                  <div class="f-vote-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage29.webp"
                       decoding="async"
@@ -881,7 +887,7 @@
                       width="100"
                       height="100"
                     />
-                  </a>
+                  </div>
 
                   <div class="f-slide-cart-titles G-flex-column">
                     <h6 class="f-slide-cart-title">Хриплый</h6>
@@ -892,7 +898,7 @@
 
               <div class="swiper-slide">
                 <div class="f-vote-cart G-align-center">
-                  <a href="#" class="f-vote-cart-image G-flex">
+                  <div class="f-vote-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage30.webp"
                       decoding="async"
@@ -901,7 +907,7 @@
                       width="100"
                       height="100"
                     />
-                  </a>
+                  </div>
 
                   <div class="f-slide-cart-titles G-flex-column">
                     <h6 class="f-slide-cart-title">Тихий</h6>
@@ -912,7 +918,7 @@
 
               <div class="swiper-slide">
                 <div class="f-vote-cart G-align-center">
-                  <a href="#" class="f-vote-cart-image G-flex">
+                  <div class="f-vote-cart-image G-flex">
                     <img
                       src="assets/images/fSlideCartImage31.webp"
                       decoding="async"
@@ -921,7 +927,7 @@
                       width="100"
                       height="100"
                     />
-                  </a>
+                  </div>
 
                   <div class="f-slide-cart-titles G-flex-column">
                     <h6 class="f-slide-cart-title">Соблазнительный</h6>

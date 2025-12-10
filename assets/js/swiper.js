@@ -1,6 +1,6 @@
 function initSwiper(selector, slides = 3.2, customBreakpoints = {}) {
   const baseBreakpoints = {
-    320: { slidesPerView: 1 },
+    320: { slidesPerView: 1.1 },
     450: { slidesPerView: 1.3 },
     576: { slidesPerView: 1.5 },
     992: { slidesPerView: 2 },

@@ -82,15 +82,24 @@ document.addEventListener("DOMContentLoaded", () => {
     );
 });
 
-let numb = [];
-function num(str){
-  for(let i of str){
-   
-    if (!isNaN(parseInt(i))) { 
-      numb += parseInt(i);
-    }
-  }
-  return numb.length;
-}
 
-console.log(num("hkgk1234"));
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const wrapper = document.querySelector(".f-wrapper");
+    const arrowBtn = document.querySelector(".icon-arrowUpLine");
+    const burger = document.querySelector(".f-burger");
+
+    if (!wrapper) return;
+
+    arrowBtn?.addEventListener("click", () => {
+        wrapper.classList.remove("active");
+        wrapper.classList.add("inActive");
+    });
+
+    burger?.addEventListener("click", () => {
+        wrapper.classList.remove("inActive");
+        wrapper.classList.add("active");
+    });
+});
